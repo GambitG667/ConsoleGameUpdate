@@ -59,6 +59,7 @@ public:
 			{
 				std::cout << simbolsArray[screenArray[i][j]->GetInfo()];
 				/*std::cout << screenArray[i][j]->GetCoordinates().x << "," << screenArray[i][j]->GetCoordinates().y << " ";*/
+				/*Если раскоментировать код выше и закоментировать 60 строку, то вместо значка GO будут выводиться его координаты*/
 			}
 			std::cout << std::endl;
 		}
