@@ -2,7 +2,6 @@
 #include <string>
 #include <vector>
 #include <conio.h>
-////#include "Map.h"
 #include "Coordinates.h"
 #include "Map.h"
 
@@ -22,31 +21,7 @@ void print(std::vector <char> simb, int x, int y)
 
 
 int main()
-{
-	
-
-
-	//std::vector <char> simb;
-	//simb.resize(10);
-
-	//simb[0] = '#';
-	//simb[9] = '%';
-
-	//simb.insert(simb.begin(), '@');
-	//simb.insert(simb.begin() + 9, '&');
-
-
-	//for (int j = 0; j < simb.size(); ++j)
-	//{
-	//	std::cout << simb[j];
-	//}
-
-
-	//print(simb, 10, 10);
-
-	//Map map;
-	//map.Print();
-	
+{	
 	srand(time(NULL));
 
 	Map map;
